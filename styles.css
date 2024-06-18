@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* light blue background */
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #4682B4, #87CEEB);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #4682B4; /* dark blue background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3498DB; /* darker blue background */
+}
+
+.login-form, .register-form, .carpool-form {
+    display: none;
+}
+
+.login-form.show, .register-form.show, .carpool-form.show {
+    display: block;
+}
